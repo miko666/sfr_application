@@ -17,3 +17,11 @@ core cases :
 | TC14 | hromadné vs postupné nahratie | rovnaké dáta | rovnaký výsledok |
 
 edge cases :
+| TC15 | x = 1 (každá nula) | 1.1:0 | nevierohodné |
+| TC16 | x = 0 (neplatná hodnota) | param x=0 | chyba / nevalidné nastavenie |
+| TC17 | y = 0 | 1.1:0, 2.1:0 | nevierohodné |
+| TC18 | y < 0 (neplatná hodnota) | param y=-10 | chyba / nevalidné nastavenie |
+| TC19 | prerušenie nenulovou hodnotou (čas splnený) | 1.1:0, 1.2:5, 1.6:0 | vierohodné |
+| TC20 | viac odpočtov medzi nulami | 1.1:0, 1.2:5, 1.3:7, 1.6:0 | vierohodné |
+| TC21 | kombinácia výnimka uprostred | 0(normálny), 0(typ02), 0(normálny) | vierohodné |
+| TC22 | kombinácia viac výnimiek | 0(typ02), 0(typ03), 0(normálny) | vierohodné |
