@@ -17,6 +17,8 @@ core cases :
 | TC14 | hromadné vs postupné nahratie | rovnaké dáta | rovnaký výsledok |
 
 edge cases :
+| TC | Popis | Dáta | Očakávanie |
+|----|-------|------|------------|
 | TC15 | x = 1 (každá nula) | 1.1:0 | nevierohodné |
 | TC16 | x = 0 (neplatná hodnota) | param x=0 | chyba / nevalidné nastavenie |
 | TC17 | y = 0 | 1.1:0, 2.1:0 | nevierohodné |
