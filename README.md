@@ -1,3 +1,4 @@
+core cases :
 | TC | Popis | Dáta | Očakávanie |
 |----|-------|------|------------|
 | TC01 | 2x nula, ≥100 dní | 1.1:0, 15.5:0 | nevierohodné |
@@ -14,3 +15,5 @@
 | TC12 | zmena parametra y=50 | 60 dní | nevierohodné |
 | TC13 | vypnutá validácia | ľubovoľné | vierohodné |
 | TC14 | hromadné vs postupné nahratie | rovnaké dáta | rovnaký výsledok |
+
+edge cases :
